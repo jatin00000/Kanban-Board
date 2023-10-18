@@ -1,0 +1,19 @@
+.TodoIcon {
+  height: 14px;
+  width: 14px;
+  color: gray;
+  margin-right: 5px;
+}
+.ProgressIcon {
+  height: 14px;
+  width: 14px;
+  rotate: 180deg;
+  color: gold;
+  margin-right: 5px;
+}
+.DoneIcon {
+  height: 14px;
+  width: 14px;
+  color: #6F00FF;
+  margin-right: 5px;
+}

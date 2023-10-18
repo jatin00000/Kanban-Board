@@ -1,0 +1,64 @@
+.header {
+  height: 60px;
+  width: 100%;
+  background-color: white;
+}
+
+.displayButton {
+  margin-left: 45px;
+  margin-top: 30px;
+  border-radius: 4px;
+  height: 35px;
+  width: 120px;
+  border: 0;
+  background-color: white;
+  box-shadow: 0px 1px 2px 2px #DBE2E9, 1px 1px 1px 1px #DBE2E9;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  padding-top: 10px;
+}
+.displayButton:hover {
+  background-color: #DBE2E9;
+}
+
+.choicForm{
+  position: absolute;
+  margin-left: 45px;
+  margin-top: 20px;
+  border-radius: 4px;
+  height: 100px;
+  width: 300px;
+  border: 0;
+  background-color: white;
+  box-shadow: 0px 1px 2px 2px #DBE2E9, 1px 1px 1px 1px #DBE2E9;
+  z-index: 1;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.Qtext{
+  font-size: 15px;
+  color: gray;
+}
+.Mtext{
+  font-size: 15px;
+  width: 100px;
+}
+.Card{
+  width: 300px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 2px #DBE2E9, 1px 1px 1px 1px #DBE2E9;
+}

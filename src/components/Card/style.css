@@ -1,0 +1,50 @@
+.id {
+    font-size: 14px;
+    color: gray;
+    margin: 0;
+}
+.Card {
+    padding: 8px;
+    margin-top: 20px;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+  }
+  .title {
+    flex: 1; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+  }
+.tagItem{
+    font-size: 14px;
+    color: gray;
+}
+.dotIcon{
+    height: 10px;
+    width: 10px;
+    color: rgb(199, 203, 207);
+    margin-right: 5px;
+}
+.dotIcon2{
+    height: 16px;
+    width: 10px;
+    color: rgb(199, 203, 207);
+ 
+}
+.boundary{
+    border-radius: 2px;
+    border: 1px solid #f7f7f7;
+    width: fit-content;
+    padding: 2px;
+    margin-right: 5px;
+}
+.p{
+    padding: 0;
+}

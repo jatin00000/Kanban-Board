@@ -1,0 +1,59 @@
+#boardArea{
+    background-color: #f7f7f7;
+    height: 100%;
+    margin: -10px;
+    min-height: 100vh;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .box {
+    width: 350px;
+    padding-top: 20px;
+    flex: 1;
+    margin: 10px; 
+  
+  }
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .labelContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .LabelLeft{
+    padding-left: 5px;
+  }
+  .LabelRight{
+    padding-right: 5px;
+    color: grey;
+  }
+  .labelLabel{
+    font-weight: 700;
+    color: black;
+    width: min-content;
+  }
+  .labelLabelU{
+    font-weight: 700;
+    color: black;
+    margin-left: 27px;
+    position: relative;
+    top: -6px;
+  }
+  .labelCnt{
+    color: grey;
+  }
+  .labelCntU{
+    color: grey;
+    position: relative;
+    top: -6px;
+    margin-left: 4px;
+  }
